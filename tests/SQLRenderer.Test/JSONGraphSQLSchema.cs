@@ -16,7 +16,7 @@ using Newtonsoft.Json;
 
 namespace openCypherTranspiler.SQLRenderer.Test
 {
-    class JSONGraphSQLSchema : ISQLDBSchemaProvider
+    public class JSONGraphSQLSchema : ISQLDBSchemaProvider
     {
         private JSONGraphSchema _schemaHelper;
         private IDictionary<string, SQLTableDescriptor> _tableDescs;
